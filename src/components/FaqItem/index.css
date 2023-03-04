@@ -1,0 +1,39 @@
+/* Write your code here. */
+.list-item {
+  list-style-type: none;
+  border: 1px solid #d7dae6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 16px;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.question {
+  margin-right: 40px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #52606d;
+}
+.plus-symbol {
+  height: 35px;
+  padding: 5px;
+  align-self: flex-end;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.answer-text {
+  font-size: 17px;
+  font-family: 'Roboto';
+}
